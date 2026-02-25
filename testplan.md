@@ -126,20 +126,28 @@ This section should be the core of this document. You should provide a table of 
     <tr>
         <td>Enter current job details for the first time.</td>
         <td>
-        1.Open the Job Detail form.
-        2.Verify the form loads.
-        3.Enter valid data into the fields.
-            Title
-            Company
-            City
-            State
-            Cost of living
-            Yearly salary
-            Stock Options
-            Wellness Stipend
-            Life insurance
-            Personal Dev Fund
-        4. Click on "Save Job."
+        
+
+        <ol>
+        <li>Open the <strong>Job Detail</strong> form.</li>
+        <li>Verify that the form loads successfully.</li>
+        <li>
+            Enter valid data into the following fields:
+            <ol type="I">
+            <li>Title</li>
+            <li>Company</li>
+            <li>City</li>
+            <li>State</li>
+            <li>Cost of Living</li>
+            <li>Yearly Salary</li>
+            <li>Stock Options</li>
+            <li>Wellness Stipend</li>
+            <li>Life Insurance</li>
+            <li>Personal Development Fund</li>
+            </ol>
+        </li>
+        <li>Click <strong>"Save Job."</strong></li>
+        </ol>
         </td>
     </tr>
     <tr>
