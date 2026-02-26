@@ -112,16 +112,16 @@ Testing processes will be supported by the following tools and technologies:
 This section should be the core of this document. You should provide a table of test cases, one per row. For each test case, the table should provide its purpose, the steps necessary to perform the test, the expected result, the actual result (to be filled later), pass/fail information (to be filled later), and any additional information you think is relevant.
 <table border="1">
     <tr>
-        <td colspan=2 style='display:center'> <b>Test Case Number:</b> 001 </td>
-    </tr>
-    <tr>
-        <td>Preconditions</td>
-        <td>No existing current job in the record.</td>
+        <td colspan=2 style='display:center'> <b>Test Case Number 001: Add Current Job</b> </td>
     </tr>
     <tr>
         <td>Description</td>
         <td>Enter current job details for the first time.</td>
     </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td>No existing current job in the record.</td>
+    </tr>    
     <tr>
         <td>Steps</td>
     <td>
@@ -158,16 +158,16 @@ This section should be the core of this document. You should provide a table of 
     </tr>
 
 <tr>
-        <td colspan=2 style='display:center'><b>Test Case Number:</b> 002</td>
-    </tr>
-    <tr>
-        <td>Preconditions</td>
-        <td>Job detail form loads.</td>
+        <td colspan=2 style='display:center'><b>Test Case Number 002: Exit from Job detail screen</b></td>
     </tr>
     <tr>
         <td>Description</td>
         <td>Cancel and exit from job detail form.</td>
     </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td>Job detail form loads.</td>
+    </tr>    
     <tr>
         <td>Steps</td>
         <td>Click on the “ Cancel” button</td>
@@ -182,16 +182,16 @@ This section should be the core of this document. You should provide a table of 
     </tr>
 
 <tr>
-        <td colspan=2 style='display:center'><b>Test Case Number:</b> 003</td>
-    </tr>
-    <tr>
-        <td>Preconditions</td>
-        <td>Current Job detail form loads.</td>
+        <td colspan=2 style='display:center'><b>Test Case Number 003: Edit Current Job</b></td>
     </tr>
     <tr>
         <td>Description</td>
         <td>Edit previously entered current job details.</td>
     </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td>Current Job detail form loads.</td>
+    </tr>    
     <tr>
         <td>Steps</td>
         <td>
@@ -213,25 +213,25 @@ This section should be the core of this document. You should provide a table of 
     </tr>
 
 <tr>
-        <td colspan=2 style='display:center'><b>Test Case Number:</b> 004</td>
+        <td colspan=2 style='display:center'><b>Test Case Number 004: Adjust comparison Settings</b> 004</td>
     </tr>
-    <tr>
-        <td>Preconditions</td>
-        <td></td>
-    </tr>
-    <tr>
+     <tr>
         <td>Description</td>
         <td>Adjust comparison settings.</td>
     </tr>
     <tr>
+        <td>Preconditions</td>
+        <td>User is logged in and on the "comparison Settings" screen.</td>
+    </tr>   
+    <tr>
         <td>Steps</td>
         <td>
         <ol>
-        <li>Open the comparison setting form.</li>
+        <li>Navigate to the "Comparison Settings" section.</li>
         <li>Verify the form loads.</li>
         <li>Verify the default value for each field is 1.</li>
         <li>
-            Enter valid value [0-9] for each field below:
+            Adjust the comparison settings. Enter valid value [0-9] for each field below:
             <ul>
             <li>Yearly Salary</li>
             <li>Yearly Bonus</li>
@@ -246,7 +246,7 @@ This section should be the core of this document. You should provide a table of 
     </tr>
     <tr>
         <td>Expected Result</td>
-        <td>Settings are saved successfully.</td>
+        <td>the new settings are saved and applied during the next comparison..</td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
@@ -254,16 +254,16 @@ This section should be the core of this document. You should provide a table of 
     </tr>
 
 <tr>
-        <td colspan=2 style='display:center'><b>Test Case Number:</b> 005</td>
+        <td colspan=2 style='display:center'><b>Test Case Number 005: Exit from comparison screen</b></td>
+    </tr>
+     <tr>
+        <td>Description</td>
+        <td>Cancel and exit from comparison setting form.</td>
     </tr>
     <tr>
         <td>Preconditions</td>
         <td></td>
-    </tr>
-    <tr>
-        <td>Description</td>
-        <td>Cancel and exit from comparison setting form.</td>
-    </tr>
+    </tr>   
     <tr>
         <td>Steps</td>
         <td>Click on the “ Cancel” button</td>
@@ -277,16 +277,16 @@ This section should be the core of this document. You should provide a table of 
         <td>Not started.</td>
     </tr>
 <tr>
-        <td colspan=2 style='display:center'><b>Test Case Number:</b> 006</td>
-    </tr>
-    <tr>
-        <td>Preconditions</td>
-        <td></td>
+        <td colspan=2 style='display:center'><b>Test Case Number 006: Rank job offers</b></td>
     </tr>
     <tr>
         <td>Description</td>
         <td>List ranked job offers</td>
     </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>    
     <tr>
         <td>Steps</td>
         <td>From the main menu click on the “Compare Job Offers” button.</td>
@@ -300,16 +300,16 @@ This section should be the core of this document. You should provide a table of 
         <td>Not started.</td>
     </tr>
 <tr>
-        <td colspan=2 style='display:center'><b>Test Case Number:</b> 007</td>
+        <td colspan=2 style='display:center'><b>Test Case Number 007: Compare two jobs</b></td>
+    </tr>
+     <tr>
+        <td>Description</td>
+        <td>Verify that the job comparison function ranks jobs correctly based on comparison settings</td>
     </tr>
     <tr>
         <td>Preconditions</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Description</td>
-        <td>Compare two jobs.</td>
-    </tr>
+        <td>User has saved multiple job offers.</td>
+    </tr>   
     <tr>
         <td>Steps</td>
         <td>
@@ -343,23 +343,28 @@ This section should be the core of this document. You should provide a table of 
         <td>Not started.</td>
     </tr>
 <tr>
-        <td colspan=2 style='display:center'><b>Test Case Number:</b> 008</td>
+        <td colspan=2 style='display:center'><b>Test Case Number 008: Invalid Job Offer Input</b></td>
+    </tr>
+    <tr>
+        <td>Verify that invalid job offer inputs are handled correctly.</td>
+        <td></td>
     </tr>
     <tr>
         <td>Preconditions</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Description</td>
-        <td></td>
-    </tr>
+        <td>User add new job offer</td>
+    </tr>    
     <tr>
         <td>Steps</td>
-        <td></td>
+        <td>
+        <ol>
+        <li>Enter invalid data</li>
+        <li>Click on "Save"</li>
+        </ol>
+        </td>
     </tr>
     <tr>
         <td>Expected Result</td>
-        <td></td>
+        <td>The app should display appropriate error messages and not save thejob offer until the issues are fixed.</td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
