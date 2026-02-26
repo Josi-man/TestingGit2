@@ -112,14 +112,18 @@ Testing processes will be supported by the following tools and technologies:
 This section should be the core of this document. You should provide a table of test cases, one per row. For each test case, the table should provide its purpose, the steps necessary to perform the test, the expected result, the actual result (to be filled later), pass/fail information (to be filled later), and any additional information you think is relevant.
 <table border="1">
     <tr>
-        <td colspan=2 style='display:center'> Test Case Number: </td>
+        <td colspan=2 style='display:center'> Test Case Number: 001 </td>
     </tr>
     <tr>
         <td>Preconditions</td>
         <td>No existing current job in the record.</td>
     </tr>
     <tr>
-        <td>Enter current job <br/>details for the first time.</td>
+        <td>Description</td>
+        <td>Enter current job details for the first time.</td>
+    </tr>
+    <tr>
+        <td>Steps</td>
     <td>
         <ol>
         <li>Open the <strong>Job Detail</strong> form.</li>
@@ -154,44 +158,58 @@ This section should be the core of this document. You should provide a table of 
     </tr>
 
 <tr>
-        <td colspan=2 style='display:center'></td>
+        <td colspan=2 style='display:center'>Test Case Number: 002</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>Preconditions</td>
+        <td>Job detail form loads.</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>Description</td>
+        <td>Cancel and exit from job detail form.</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>Steps</td>
+        <td>Click on the “ Cancel” button</td>
+    </tr>    
+    <tr>
+        <td>Expected Result</td>
+        <td>The user is redirected to the main menu without saving.</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>Pass/Fail</td>
+        <td>Not started</td>
     </tr>
-
 
 <tr>
-        <td colspan=2 style='display:center'></td>
+        <td colspan=2 style='display:center'>Test Case Number: 003</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>Preconditions</td>
+        <td>Current Job detail form loads.</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>Description</td>
+        <td>Edit previously entered current job details.</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>Steps</td>
+        <td>
+        <ol>
+        <li>From the listed jobs click on the current job.</li>
+        <li>Verify the form loads with previously saved data.</li>
+        <li>Modify the fields with valid data.</li>
+        <li>Click on "Update Job."</li>
+        </ol>  
+        </td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>Expected Result</td>
+        <td>Updated details are saved successfully.</td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
     </tr>
 
 <tr>
