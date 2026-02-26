@@ -1,10 +1,11 @@
 <h1>Test Plan</h1>
-This is the template for your test plan. The parts in italics are concise explanations of what should go in the corresponding sections and should not appear in the final document.
+This Test Plan outlines the objectives and testing approach for the job offer comparison application. It also includes the defined test cases that will be executed to verify the system meets specified requirements and ensures reliable product.
 
 <h2>Author:</h2> Team 115
 
 <h2>1 Testing Strategy</h2>
 <h3>1.1 Overall strategy</h3>
+
 The goal of this testing strategy is to validate the functionality, usability, and performance of the single-user job comparison app. The strategy will cover unit testing, integration testing, system testing, and regression testing.
 
 <h4>1.1.1 Unit Testing</h4>
@@ -65,30 +66,32 @@ Regression testing will ensure that new changes or additions to the app do not n
 Testing will be categorized into the following types:
 
 <h4>1.2.1 Unit Testing</h4>
+
 <b>Objective:</b> Validate individual functions and methods.<br>
 <b>Techniques:</b> White-box testing, focusing on functionality like adding jobs, salary validation, and saving settings.
 
 <h4>1.2.2 Integration Testing</h4>
+
 <b>Objective:</b> Test interaction between components.<br>
 <b>Techniques:</b> Black-box testing to ensure that job addition integrates smoothly with comparison functionalities.
 
 <h4>1.2.3 System Testing</h4>
+
 <b>Objective:</b> Validate the complete application against requirements.<br>
 <b>Techniques:</b> Black-box testing, running end-to-end user scenarios and checking for performance and usability.
 
 <h4>1.2.4 Regression Testing</h4>
+
 <b>Objective:</b> Ensure new changes don’t affect existing functions.<br>
 <b>Techniques:</b> Black-box testing, re-running previous test cases to check compatibility with new features and ensuring critical use cases still work.
 
 <h3>1.3 Adequacy Criterion</h3>
-Test coverage will be assessed through the following criteria:
 
-Code Coverage: Aim for at least 80% of code coverage through automated tests.
-Functional Coverage: Ensure all critical functionalities (entering jobs, editing details, comparing offers) are tested.
-Usability Completion Rate: Aim for a successful completion rate of at least 90% in usability scenarios during UAT.
+Define how you are going to assess the quality of your test cases. Typically, this involves some form of functional or structural coverage. If you plan to use different techniques at different testing levels (e.g., unit and system), you should clarify that.
 
 
 <h3>1.4 Bug Tracking</h3>
+
 A defect tracking system will be used to record, monitor, and manage identified issues. The process will include:
 
 <ul>
@@ -99,6 +102,7 @@ A defect tracking system will be used to record, monitor, and manage identified 
 </ul>
 
 <h3>1.5 Technology</h3>
+
 Testing processes will be supported by the following tools and technologies:
 
 <ul>
@@ -109,7 +113,8 @@ Testing processes will be supported by the following tools and technologies:
 
 
 <h2>2 Test Cases</h2>
-This section should be the core of this document. You should provide a table of test cases, one per row. For each test case, the table should provide its purpose, the steps necessary to perform the test, the expected result, the actual result (to be filled later), pass/fail information (to be filled later), and any additional information you think is relevant.
+This section provides detailed test cases created to validate the functionality, performance, and reliability of the job comparison application. Each test case includes the test description, preconditions, test steps, expected results, Actual result and pass/fail.
+
 <table border="1">
     <tr>
         <td colspan=2 style='display:center'> <b>Test Case Number 001: Add Current Job</b> </td>
@@ -153,6 +158,10 @@ This section should be the core of this document. You should provide a table of 
         <td>Job details are saved successfully.</td>
     </tr>
     <tr>
+        <td>Actual Result</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Pass/Fail</td>
         <td>Not started</td>
     </tr>
@@ -175,6 +184,10 @@ This section should be the core of this document. You should provide a table of 
     <tr>
         <td>Expected Result</td>
         <td>The user is redirected to the main menu without saving.</td>
+    </tr>
+    <tr>
+        <td>Actual Result</td>
+        <td></td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
@@ -206,6 +219,10 @@ This section should be the core of this document. You should provide a table of 
     <tr>
         <td>Expected Result</td>
         <td>Updated details are saved successfully.</td>
+    </tr>
+    <tr>
+        <td>Actual Result</td>
+        <td></td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
@@ -249,6 +266,10 @@ This section should be the core of this document. You should provide a table of 
         <td>the new settings are saved and applied during the next comparison..</td>
     </tr>
     <tr>
+        <td>Actual Result</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Pass/Fail</td>
         <td>Not started.</td>
     </tr>
@@ -273,6 +294,10 @@ This section should be the core of this document. You should provide a table of 
         <td>The user is redirected to the main menu without saving.</td>
     </tr>
     <tr>
+        <td>Actual Result</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Pass/Fail</td>
         <td>Not started.</td>
     </tr>
@@ -294,6 +319,10 @@ This section should be the core of this document. You should provide a table of 
     <tr>
         <td>Expected Result</td>
         <td>Job offers are displayed by title and company, ranked from best to worst. The current job is also displayed if a record exists.</td>
+    </tr>
+    <tr>
+        <td>Actual Result</td>
+        <td></td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
@@ -339,6 +368,10 @@ This section should be the core of this document. You should provide a table of 
         </td>
     </tr>
     <tr>
+        <td>Actual Result</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Pass/Fail</td>
         <td>Not started.</td>
     </tr>
@@ -346,8 +379,8 @@ This section should be the core of this document. You should provide a table of 
         <td colspan=2 style='display:center'><b>Test Case Number 008: Invalid Job Offer Input</b></td>
     </tr>
     <tr>
+        <td>Description</td>
         <td>Verify that invalid job offer inputs are handled correctly.</td>
-        <td></td>
     </tr>
     <tr>
         <td>Preconditions</td>
@@ -365,6 +398,10 @@ This section should be the core of this document. You should provide a table of 
     <tr>
         <td>Expected Result</td>
         <td>The app should display appropriate error messages and not save thejob offer until the issues are fixed.</td>
+    </tr>
+    <tr>
+        <td>Actual Result</td>
+        <td></td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
@@ -387,6 +424,10 @@ This section should be the core of this document. You should provide a table of 
     </tr>
     <tr>
         <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Actual Result</td>
         <td></td>
     </tr>
     <tr>
@@ -413,6 +454,10 @@ This section should be the core of this document. You should provide a table of 
         <td></td>
     </tr>
     <tr>
+        <td>Actual Result</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Pass/Fail</td>
         <td>Not started.</td>
     </tr>
@@ -433,6 +478,10 @@ This section should be the core of this document. You should provide a table of 
     </tr>
     <tr>
         <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Actual Result</td>
         <td></td>
     </tr>
     <tr>
@@ -459,6 +508,10 @@ This section should be the core of this document. You should provide a table of 
         <td></td>
     </tr>
     <tr>
+        <td>Actual Result</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Pass/Fail</td>
         <td>Not started.</td>
     </tr>
@@ -479,6 +532,10 @@ This section should be the core of this document. You should provide a table of 
     </tr>
     <tr>
         <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Actual Result</td>
         <td></td>
     </tr>
     <tr>
@@ -505,6 +562,10 @@ This section should be the core of this document. You should provide a table of 
         <td></td>
     </tr>
     <tr>
+        <td>Actual Result</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Pass/Fail</td>
         <td>Not started.</td>
     </tr>
@@ -525,6 +586,10 @@ This section should be the core of this document. You should provide a table of 
     </tr>
     <tr>
         <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Actual Result</td>
         <td></td>
     </tr>
     <tr>
