@@ -14,9 +14,9 @@ Unit testing will focus on individual components of the app to ensure that each 
 <b>Activities:</b>
 <ul>
     <li>Writing unit tests for each function or method in the code (e.g., adding job offers, ranking jobs).</li>
-    <li>Ensuring that error conditions are tested (e.g., negative salary, empty job data).<li>
+    <li>Ensuring that error conditions are tested (e.g., negative salary, empty job data).</li>
 </ul>
-<b>Who Performs:</b> Unit testing will primarily be performed by the development team (developers).
+<b>Who Performs:</b> Unit testing will primarily be performed by the development team (developers).<br>
 <b>Test Tools:</b> JUnit
 
 <h4>1.1.2 Integration Testing</h4>
@@ -28,7 +28,7 @@ Integration testing will used to verify multiple components work together as exp
     <li>Testing the integration of key modules such as job storage, comparison algorithms, and UI interactions.</li>
     <li>Validating that job data stored in the database is retrieved and processed correctly for comparison.</li>
 </ul>
-<b>Who Performs:</b> Integration tests will be performed bu both developers and quality assurance (QA).
+<b>Who Performs:</b> Integration tests will be performed bu both developers and quality assurance (QA).<br>
 <b>Test Tools:</b> JUnit (for integration tests).
 
 <h4>1.1.3 System Testing</h4>
@@ -43,7 +43,7 @@ System testing will involve testing the entire application as a whole to ensure 
       <li> Testing user interface (UI) for usability, layout, and accessibility.</li>
 </ul>
 
-<b>Who Performs:</b> QA engineers will primarily perform system testing. They will create test cases based on the app's requirements and specifications, and run manual or automated tests to verify system functionality.
+<b>Who Performs:</b> QA engineers will primarily perform system testing. They will create test cases based on the app's requirements and specifications, and run manual or automated tests to verify system functionality.<br>
 <b>Test Tools:</b> ???
 
 <h4>1.1.4 Regression Testing</h4>
@@ -58,25 +58,25 @@ Regression testing will ensure that new changes or additions to the app do not n
     <li>Performing automated regression tests to speed up the process of validating common functionalities after changes.</li>
 </ul>
 
-<b>Who Performs:</b> QA engineers will primarily conduct regression testing, leveraging automated test scripts to cover major use cases. Developers will also run unit regression tests when working on specific code changes.
+<b>Who Performs:</b> QA engineers will primarily conduct regression testing, leveraging automated test scripts to cover major use cases. Developers will also run unit regression tests when working on specific code changes.<br>
 <b>Test Tools:</b> JUnit.
 
 <h3>1.2 Test Selection</h3>
 Testing will be categorized into the following types:
 
-<h4>Unit Testing</h4>
+<h4>1.2.1 Unit Testing</h4>
 <b>Objective:</b> Validate individual functions and methods.<br>
 <b>Techniques:</b> White-box testing, focusing on functionality like adding jobs, salary validation, and saving settings.
 
-<h4>Integration Testing</h4>
+<h4>1.2.2 Integration Testing</h4>
 <b>Objective:</b> Test interaction between components.<br>
 <b>Techniques:</b> Black-box testing to ensure that job addition integrates smoothly with comparison functionalities.
 
-<h4>System Testing</h4>
+<h4>1.2.3 System Testing</h4>
 <b>Objective:</b> Validate the complete application against requirements.<br>
 <b>Techniques:</b> Black-box testing, running end-to-end user scenarios and checking for performance and usability.
 
-<h4>Regression Testing</h4>
+<h4>1.2.4 Regression Testing</h4>
 <b>Objective:</b> Ensure new changes don’t affect existing functions.<br>
 <b>Techniques:</b> Black-box testing, re-running previous test cases to check compatibility with new features and ensuring critical use cases still work.
 
