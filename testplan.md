@@ -26,7 +26,7 @@ Integration testing will used to verify multiple components work together as exp
 <b>Activities:</b>
 <ul>
     <li>Testing the integration of key modules such as job storage, comparison algorithms, and UI interactions.</li>
-    <li>Validating that job data stored in the database is retrieved and processed correctly for comparison.<li>
+    <li>Validating that job data stored in the database is retrieved and processed correctly for comparison.</li>
 </ul>
 <b>Who Performs:</b> Integration tests will be performed bu both developers and quality assurance (QA).
 <b>Test Tools:</b> JUnit (for integration tests).
@@ -38,9 +38,9 @@ System testing will involve testing the entire application as a whole to ensure 
 <b>Activities:</b>
 <ul>
     <li>Testing the app’s full functionality, including job saving, job comparison, ranking, and criteria customization.</li>
-    <li> Testing user interface (UI) for usability, layout, and accessibility.<li>
-    <li> Validating system interactions between different components like front-end, back-end, and databases.<li>
-      <li> Testing user interface (UI) for usability, layout, and accessibility.<li>
+    <li> Testing user interface (UI) for usability, layout, and accessibility.</li>
+    <li> Validating system interactions between different components like front-end, back-end, and databases.</li>
+      <li> Testing user interface (UI) for usability, layout, and accessibility.</li>
 </ul>
 
 <b>Who Performs:</b> QA engineers will primarily perform system testing. They will create test cases based on the app's requirements and specifications, and run manual or automated tests to verify system functionality.
@@ -53,9 +53,9 @@ Regression testing will ensure that new changes or additions to the app do not n
 <b>Activities:</b>
 <ul>
     <li>Re-running previously executed tests to check if the app still behaves as expected after code changes.</li>
-    <li> Testing the core features of the app, like job saving, comparison functionality, and ranking, after each new release or update.<li>
-    <li> Validating system interactions between different components like front-end, back-end, and databases.<li>
-    <li>Performing automated regression tests to speed up the process of validating common functionalities after changes.<li>
+    <li> Testing the core features of the app, like job saving, comparison functionality, and ranking, after each new release or update.</li>
+    <li> Validating system interactions between different components like front-end, back-end, and databases.</li>
+    <li>Performing automated regression tests to speed up the process of validating common functionalities after changes.</li>
 </ul>
 
 <b>Who Performs:</b> QA engineers will primarily conduct regression testing, leveraging automated test scripts to cover major use cases. Developers will also run unit regression tests when working on specific code changes.
@@ -65,19 +65,19 @@ Regression testing will ensure that new changes or additions to the app do not n
 Testing will be categorized into the following types:
 
 <h4>Unit Testing</h4>
-<b>Objective:</b> Validate individual functions and methods.
+<b>Objective:</b> Validate individual functions and methods.<br>
 <b>Techniques:</b> White-box testing, focusing on functionality like adding jobs, salary validation, and saving settings.
 
 <h4>Integration Testing</h4>
-<b>Objective:</b> Test interaction between components.
+<b>Objective:</b> Test interaction between components.<br>
 <b>Techniques:</b> Black-box testing to ensure that job addition integrates smoothly with comparison functionalities.
 
 <h4>System Testing</h4>
-<b>Objective:</b> Validate the complete application against requirements.
+<b>Objective:</b> Validate the complete application against requirements.<br>
 <b>Techniques:</b> Black-box testing, running end-to-end user scenarios and checking for performance and usability.
 
 <h4>Regression Testing</h4>
-<b>Objective:</b> Ensure new changes don’t affect existing functions.
+<b>Objective:</b> Ensure new changes don’t affect existing functions.<br>
 <b>Techniques:</b> Black-box testing, re-running previous test cases to check compatibility with new features and ensuring critical use cases still work.
 
 <h3>1.3 Adequacy Criterion</h3>
@@ -93,8 +93,8 @@ A defect tracking system will be used to record, monitor, and manage identified 
 
 <ul>
     <li>Logging defects with severity classifications (Critical, Major, Minor).</li>
-    <li> Hold review meetings regularly to evaluate impact and determine resolution.<li>
-    <li>Utilizing tracking tools such as_______ to streamline monitoring.<li>
+    <li> Hold review meetings regularly to evaluate impact and determine resolution.</li>
+    <li>Utilizing tracking tools such as_______ to streamline monitoring.</li>
     
 </ul>
 
@@ -103,7 +103,7 @@ Testing processes will be supported by the following tools and technologies:
 
 <ul>
     <li>JUnit for automated functional test execution.</li>
-    <li>____ for defect management and project tracking.<li>
+    <li>____ for defect management and project tracking.</li>
     <li>Git for controlling code versions.</li>    
 </ul>
 
