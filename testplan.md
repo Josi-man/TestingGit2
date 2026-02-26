@@ -221,15 +221,32 @@ This section should be the core of this document. You should provide a table of 
     </tr>
     <tr>
         <td>Description</td>
-        <td></td>
+        <td>Adjust comparison settings.</td>
     </tr>
     <tr>
         <td>Steps</td>
-        <td></td>
+        <td>
+        <ol>
+        <li>Open the comparison setting form.</li>
+        <li>Verify the form loads.</li>
+        <li>Verify the default value for each field is 1.</li>
+        <li>
+            Enter valid value [0-9] for each field below:
+            <ul>
+            <li>Yearly Salary</li>
+            <li>Yearly Bonus</li>
+            <li>Stock Options Share</li>
+            <li>Life Insurance</li>
+            <li>Personal Development Fund</li>
+            </ul>
+        </li>
+        <li>Click on the “Save” button.</li>
+        </ol>
+        </td>
     </tr>
     <tr>
         <td>Expected Result</td>
-        <td></td>
+        <td>Settings are saved successfully.</td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
@@ -245,15 +262,15 @@ This section should be the core of this document. You should provide a table of 
     </tr>
     <tr>
         <td>Description</td>
-        <td></td>
+        <td>Cancel and exit from comparison setting form.</td>
     </tr>
     <tr>
         <td>Steps</td>
-        <td></td>
+        <td>Click on the “ Cancel” button</td>
     </tr>
     <tr>
         <td>Expected Result</td>
-        <td></td>
+        <td>The user is redirected to the main menu without saving.</td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
@@ -268,15 +285,15 @@ This section should be the core of this document. You should provide a table of 
     </tr>
     <tr>
         <td>Description</td>
-        <td></td>
+        <td>List ranked job offers</td>
     </tr>
     <tr>
         <td>Steps</td>
-        <td></td>
+        <td>From the main menu click on the “Compare Job Offers” button.</td>
     </tr>
     <tr>
         <td>Expected Result</td>
-        <td></td>
+        <td>Job offers are displayed by title and company, ranked from best to worst. The current job is also displayed if a record exists.</td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
@@ -291,15 +308,35 @@ This section should be the core of this document. You should provide a table of 
     </tr>
     <tr>
         <td>Description</td>
-        <td></td>
+        <td>Compare two jobs.</td>
     </tr>
     <tr>
         <td>Steps</td>
-        <td></td>
+        <td>
+            <ol>
+                <li>From the main menu, click on the “Compare Job Offers” button.</li>
+                <li>Verify the jobs are listed and ranked from best to worst.</li>
+                <li>Select two job offers from the list.</li>
+                <li>Click on the “Compare” button.</li>
+            </ol>
+        </td>
     </tr>
     <tr>
         <td>Expected Result</td>
-        <td></td>
+        <td>A table comparing the two jobs displayed the following fields for each job.
+        <ul>
+            <li>Title</li>
+            <li>Company</li>
+            <li>Location</li>
+            <li>Yearly Salary Adjusted for Cost of Living</li>
+            <li>Yearly Bonus Adjusted for Cost of Living</li>
+            <li>Stock Option Shares (SOS)</li>
+            <li>Wellness Stipend (WS)</li>
+            <li>Life Insurance (LI)</li>
+            <li>Personal Development Fund (PDF)</li>
+            <li>Job Score</li>
+        </ul>
+        </td>
     </tr>
     <tr>
         <td>Pass/Fail</td>
