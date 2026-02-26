@@ -124,7 +124,7 @@ This section should be the core of this document. You should provide a table of 
         <td>No existing current job in the record.</td>
     </tr>
     <tr>
-        <td>Enter current job details for the first time.</td>
+        <td>Enter current job <br/>details for the first time.</td>
     <td>
         <ol>
         <li>Open the <strong>Job Detail</strong> form.</li>
