@@ -112,7 +112,7 @@ Testing processes will be supported by the following tools and technologies:
 This section should be the core of this document. You should provide a table of test cases, one per row. For each test case, the table should provide its purpose, the steps necessary to perform the test, the expected result, the actual result (to be filled later), pass/fail information (to be filled later), and any additional information you think is relevant.
 <table border="1">
     <tr>
-        <td colspan=2 style='display:center'> Test Case Number: 001 </td>
+        <td colspan=2 style='display:center'> <b>Test Case Number:</b> 001 </td>
     </tr>
     <tr>
         <td>Preconditions</td>
@@ -158,7 +158,7 @@ This section should be the core of this document. You should provide a table of 
     </tr>
 
 <tr>
-        <td colspan=2 style='display:center'>Test Case Number: 002</td>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 002</td>
     </tr>
     <tr>
         <td>Preconditions</td>
@@ -182,7 +182,7 @@ This section should be the core of this document. You should provide a table of 
     </tr>
 
 <tr>
-        <td colspan=2 style='display:center'>Test Case Number: 003</td>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 003</td>
     </tr>
     <tr>
         <td>Preconditions</td>
@@ -213,43 +213,280 @@ This section should be the core of this document. You should provide a table of 
     </tr>
 
 <tr>
-        <td colspan=2 style='display:center'></td>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 004</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
+        <td>Preconditions</td>
         <td></td>
     </tr>
     <tr>
-        <td></td>
+        <td>Description</td>
         <td></td>
     </tr>
     <tr>
+        <td>Steps</td>
         <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
         <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
     </tr>
 
 <tr>
-        <td colspan=2 style='display:center'></td>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 005</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
+        <td>Preconditions</td>
         <td></td>
     </tr>
     <tr>
-        <td></td>
+        <td>Description</td>
         <td></td>
     </tr>
     <tr>
+        <td>Steps</td>
         <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
         <td></td>
-    </tr>   
-   
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 006</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 007</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 008</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 009</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 0010</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 012</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 013</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 014</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 015</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
+<tr>
+        <td colspan=2 style='display:center'><b>Test Case Number:</b> 016</td>
+    </tr>
+    <tr>
+        <td>Preconditions</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Expected Result</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Pass/Fail</td>
+        <td>Not started.</td>
+    </tr>
 </table>
